@@ -238,7 +238,7 @@ function Internal:getElementParent(element)
 	return self._parents[element]
 end
 
----Recursively check if element is the child of parentElement
+---Check if element is a descendant of possibleParent
 ---@param element Inky.Element
 ---@param possibleParent Inky.Element
 ---@return boolean

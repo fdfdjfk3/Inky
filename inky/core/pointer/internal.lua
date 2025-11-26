@@ -159,7 +159,6 @@ do
 			local element = self._capturedElements:getByIndex(i)
 
 			elements[#elements + 1] = element
-
 		end
 
 		local sceneInternal = assert(self._scene):__getInternal()
